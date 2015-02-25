@@ -3,13 +3,13 @@ node-yandex-search
 
 Simple interface for Yandex XML search.
 
-##Installation##
+## Installation
 ```$ npm install yandex-search```
 
-##Usage##
+## Usage
 ```yandex(options, function)```
 
-##Example##
+## Example
 ```
 var yandex = require('yandex');
 var myXmlUrl = 'http://xmlsearch.yandex.com/xmlsearch?user=YOU&key=YOURKEY';
@@ -18,7 +18,7 @@ yandex({url: myXmlUrl, query: 'Node.js'}, function(err, xmlResults) {
 })
 ```
 
-##Options###
+## Options
 Options and defaults mostly follow the format specified [here](http://api.yandex.com/xml/doc/dg/concepts/post-request.xml).
 
 ```
