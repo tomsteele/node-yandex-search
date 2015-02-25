@@ -33,5 +33,6 @@ Options and defaults mostly follow the format specified [here](http://api.yandex
     groupsOnPage: 10 // [1..100]
     docsInGroup: 1   // [1..3]
   }
+  proxy: {}          // object is passed directly to the request module to control proxy behaviour.
 }
 ```
