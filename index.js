@@ -80,6 +80,9 @@ module.exports = function(options, callback) {
                                  options.groupby.groupsOnPage,
                                  options.groupby.docsInGroup);
   var requestOptions = { url: options.url, body: requestBody };
+  if (options.proxy) {
+    requestOptions.proxy = options.proxy;
+  }
   request.post(requestOptions, function(err, response) {
     if (err) {
       return callback(err);
