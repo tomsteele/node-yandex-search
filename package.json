@@ -1,6 +1,6 @@
 {
   "name": "yandex-search",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simple Yandex XML search",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "url": "https://github.com/tomsteele/node-yandex-search/issues"
   },
   "dependencies": {
-    "request": "~2.27.0",
-    "entities": "~0.3.0"
+    "entities": "~0.3.0",
+    "request": "^2.53.0"
   }
 }
